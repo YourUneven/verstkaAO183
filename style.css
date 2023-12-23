@@ -1,0 +1,173 @@
+/* Общие настройки */
+
+@import url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 14px;
+  background-color: #333;
+  color: #fff;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+/* Крыша сайта */
+
+
+
+.full-body{
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.full-body video{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	z-index: 1;
+}
+.full-text{
+z-index: 2;
+color: blue;
+font-size: 60px;
+text-align: center;
+text-shadow: -1.5px 4.5px 0 #333;
+}
+a {
+	text-decoration: none;
+color:#ffffff;
+}
+li{
+	font-size: 18px;
+	list-style: none;
+	padding: 5px 0;
+}
+a:active {
+	color:black
+}
+.footer__box a:hover { 
+	text-decoration: underline;
+	color:rgb(119, 119, 145)
+}
+h3{padding: 0 auto;
+	color: rgba(101, 101, 152, 0.504);
+}
+
+
+
+/* лозунг */
+
+
+
+.losung {
+  z-index: 2;
+  height: 700px;
+  background-image: url("../img/losung1.1.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Hedvig Letters Serif";
+}
+
+.losung__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3.9789473684em;
+  height: 60%;
+  width: 100%;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: -0.5vw 0.5vw 0 #418fde;
+}
+.losung__container .last {
+  margin: 0px 0px 0px 300px;
+}
+.losung__container .first {
+  margin: 0px 300px 0px 0px;
+}
+
+
+/* подвал  */
+
+
+
+.footer__box {
+	
+	/* border: 10px solid #00f; */
+	width: 100%;
+	position:absolute;
+	bottom: -100%;	
+	display: flex;
+background-color: rgb(4, 138, 193);
+	justify-content: space-between;
+	
+}
+
+.left__box {
+	padding: 20px 0 0 40px ;
+	font-size: 20px;
+}
+
+.right__box {
+	
+	font-size: 12px;
+		margin: 0 0 0 20px;
+}
+.underline {
+	color: #ffffff;
+	font-size: 100%;
+	text-decoration: underline;
+}
+.img__one {margin: 0 30px 0 0;
+	list-style: none; /* Убираем исходные маркеры */
+    background: url(/icons8-телефон-25.png) no-repeat 0 0px; 
+    padding-left: 30px; /* Смещаем текст вправо */ 
+}
+.img__two {margin: 0 30px 0 0;
+	list-style: none; /* Убираем исходные маркеры */
+    background: url(/icons8-сообщение-20.png) no-repeat 0 0px; /* Параметры фона */
+    padding-left: 30px; /* Смещаем текст вправо */ 
+}
