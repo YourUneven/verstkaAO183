@@ -102,19 +102,24 @@ justify-content:space-between;
 
 
 .icons__sub-box{
+	font-family: 'Rubik', sans-serif;
 	font-size: 20px;
 	width: 150px;
 	height: 50px;
-	background-color:rgb(4, 193, 32);	
+	background-color:rgb(4, 138, 193);	
 	border:3px solid rgb(179, 174, 211);
 	border-radius: 30%;
 	padding: 10px 0 0 0;
 }
-
+.icons__sub-box a{
+	color:rgb(255, 255, 255);
+}
 .icons__sub-box:hover{
 margin: 10px 0 0 0;
 }
-
+.icons__sub-box a:hover{
+	color:rgb(121, 121, 121);
+}
 
 
 .content__box{
