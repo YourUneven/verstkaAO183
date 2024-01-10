@@ -84,13 +84,36 @@ height: 150px;
 width: 100%;
 background-color:rgb(4, 138, 193);	
 border-bottom: 3px solid rgb(179, 174, 211);
-opacity: 0.9;
+/* opacity: 90%; */
+display:flex;
+justify-content:space-between;
+}
+.logo__box{background-color:#1a1414
+
+}
+.icons__box{ 
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 900px;
+	text-align: center;
+
 }
 
 
+.icons__sub-box{
+	font-size: 20px;
+	width: 150px;
+	height: 50px;
+	background-color:rgb(4, 193, 32);	
+	border:3px solid rgb(179, 174, 211);
+	border-radius: 30%;
+	padding: 10px 0 0 0;
+}
 
-
-
+.icons__sub-box:hover{
+margin: 10px 0 0 0;
+}
 
 
 
