@@ -82,13 +82,14 @@ width: 100%;
 .hader{
 height: 150px;
 width: 100%;
-background-color:rgb(4, 138, 193);	
-border-bottom: 3px solid rgb(179, 174, 211);
+background-color: black;
+border-bottom: 3px solid rgb(172, 161, 245);
 /* opacity: 90%; */
 display:flex;
 justify-content:space-between;
 }
-.logo__box{background-color:#1a1414
+.logo__box{
+	padding: 0px 0 0 40px;
 
 }
 .icons__box{ 
@@ -106,8 +107,8 @@ justify-content:space-between;
 	font-size: 20px;
 	width: 150px;
 	height: 50px;
-	background-color:rgb(4, 138, 193);	
-	border:3px solid rgb(179, 174, 211);
+	background-color:rgb(0, 0, 0);	
+	border:3px solid rgb(139, 126, 224);
 	border-radius: 30%;
 	padding: 10px 0 0 0;
 }
@@ -116,17 +117,18 @@ justify-content:space-between;
 }
 .icons__sub-box:hover{
 margin: 10px 0 0 0;
+background-color:rgb(88, 88, 88);	
 }
-.icons__sub-box a:hover{
+/* .icons__sub-box a:hover{
 	color:rgb(121, 121, 121);
-}
+} */
 
 
 .content__box{
 	border-radius: 20%;
 	height: 1400px;
 	width:1700px; 
-background-color:rgb(4, 138, 193);	
+background-color:rgb(117, 117, 117);	
 opacity: 0.8;
 display:flex;
 flex-direction:column;
@@ -181,41 +183,74 @@ font-size: 20px;
 
 
 
-
-
-.footer{
-border-top: 3px solid rgb(179, 174, 211);
-	height: 200px;
-	width: 100%;
-	background-color: rgb(4, 138, 193);	
-	opacity: 0.9;
+ .fotter-box{
 	display: flex;
+	justify-content: space-around;
+	min-height: 40vh;
+	align-items: center;
+	font-size: 1vw;
+	background-color: black;
+	font-family: 'Hedvig Letters Serif';
+}
+.lavel-fotter{
+	margin: 0px 0px 0px 90px;
+	border-right: 2px solid #418fde;
+	img{
+			max-width: 237px;
+			max-height: 237px;
+	}
+}
+.carta{
+	border-right: #418fde;
+	p:first-child{
+			letter-spacing: 1px;
+			margin-bottom: 5%;
+			
+							a {
+											color: #418fde;
+									}
+			
+	}
+}
+.inf-column{
+margin-right: 10%;
 
-		justify-content: space-between;
-		
 }
-.left__box {
-	padding: 20px 0 0 40px ;
-	font-size: 20px;
+.inf-colun-item li{
+	min-height: 10px;
+	min-width: 50px;
+	padding: 5px;
+	letter-spacing: 2px;}
+	.inf-colun-item li:hover{
+			background-color: #CBE1D9;
+	}
+
+
+
+
+
+
+.footer {
+	width: 1920px;
+	background-color: #171819;
 }
 
-.right__box {
-	
-	font-size: 12px;
-		margin: 0 0 0 20px;
+.footer__row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 65px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
-.underline {
+
+.footer__text {
 	color: #ffffff;
-	font-size: 100%;
-	text-decoration: underline;
+	font-size: 12px;
+	letter-spacing: 0.3px;
 }
-.img__one {margin: 0 30px 0 0;
-	list-style: none; /* Убираем исходные маркеры */
-    background: url(/icons8-телефон-25.png) no-repeat 0 0px; 
-    padding-left: 30px; /* Смещаем текст вправо */ 
-}
-.img__two {margin: 0 30px 0 0;
-	list-style: none; /* Убираем исходные маркеры */
-    background: url(/icons8-сообщение-20.png) no-repeat 0 0px; /* Параметры фона */
-    padding-left: 30px; /* Смещаем текст вправо */ 
-}
+
