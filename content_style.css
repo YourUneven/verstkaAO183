@@ -42,10 +42,10 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-a {
+/* a {
 	text-decoration: none;
 color:#ffffff;
-}
+} */
 li{
 	font-size: 18px;
 	list-style: none;
@@ -54,10 +54,10 @@ li{
 a:active {
 	color:black
 }
-.footer a:hover { 
+/* .footer a:hover { 
 	text-decoration: underline;
-	color:rgb(119, 119, 145)
-}
+	color:rgb(119, 119, 145)ы
+} */
 h3{padding: 0 auto;
 	color: rgba(101, 101, 152, 0.504);
 }
@@ -69,7 +69,7 @@ h3{padding: 0 auto;
 	align-items: center;
 height: 2000px;
 width: 100%;
-	background-image: url(/1614645277_89-p-fon-samoleti-dlya-fotoshopa-109.jpg);
+	background-image: url(/base-menu-window.png);
 	background-position: 0 0;
 	background-attachment: fixed;
 	}
@@ -184,6 +184,7 @@ font-size: 20px;
 
 
  .fotter-box{
+	border-top:3px solid  #418fde;
 	display: flex;
 	justify-content: space-around;
 	min-height: 40vh;
@@ -194,7 +195,7 @@ font-size: 20px;
 }
 .lavel-fotter{
 	margin: 0px 0px 0px 90px;
-	border-right: 2px solid #418fde;
+	border-right: 2px solid  #418fde;
 	img{
 			max-width: 237px;
 			max-height: 237px;
@@ -231,6 +232,7 @@ margin-right: 10%;
 
 
 .footer {
+
 	width: 1920px;
 	background-color: #171819;
 }
